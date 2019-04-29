@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link href="styles/style.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Righteous" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+    <link rel="icon" href="imagens/logo.png" type="image/icon type">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <meta charset="utf-8">
+    <title>Easy Hotel</title>
+</head>
+
+<body>
+    <header class="container-fluid cabecalho col-12 mb-5">
+        <span class="logo">easy hotel</span>
+        <span class="telefone float-right">(11) 0800-754-8954</span>
+    </header>
+    <section class="container clearfix">
+        <article class="col-8 float-left pr-4">
+            <div class="cartao p-3">
+                <main class="titulo">
+                    <h1>Faça agora a reserva para suas férias!</h1>
+                </main>
+                Prepare-se para o lazer e conforto de nossas acomodações...
+                <ul class="lista mt-2 mb-4">
+                    <li>Restaurante À La Carte</li>
+                    <li>Salão para Eventos</li>
+                    <li>Snooker Bar</li>
+                    <li>Serviço de quarto 24hrs</li>
+                </ul>
+
+                <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="imagens/restaurante.jpg" class="d-block w-100" alt="Restaurante">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="imagens/bar.jpg" class="d-block w-100" alt="Bar">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="imagens/quarto.jpg" class="d-block w-100" alt="Quarto">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+        <aside class="col-4 float-left cartao p-4">
+            <form>
+                <div class="form-group">
+                    <label for="nome">Nome</label>
+                    <input type="text" class="form-control" id="nome" placeholder="Nome">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="text" class="form-control" id="email" placeholder="Email">
+                </div>
+                <div class="form-group">
+                    <label for="telefone">Telefone</label>
+                    <input type="text" class="form-control" id="telefone" placeholder="Telefone">
+                </div>
+                <div class="form-group">
+                    <label for="verificacao">2 + 6 = ?</label>
+                    <input type="text" class="form-control" id="verificacao" placeholder="Digite o resultado da operação acima">
+                </div>
+                <div>
+                    <button type="submit" class="btn btn-primary btn-lg btn-block mt-4" onclick="enviarFormulario()">Enviar</button>
+                </div>
+            </form>
+        </aside>
+
+    </section>
+
+    <footer class="container-fluid rodape page-footer">
+        <div class="row">
+            <span class="rodape col-12 text-center">Leonardo Roccato</span>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="scripts/main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,36 @@
+body {
+    background-image: url("../imagens/body.jpg");
+    background-color: #cccccc;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.logo {
+    font-family: 'Righteous', cursive;
+    font-size: 2em;
+}
+
+.telefone {
+    font-size: 2em;
+    font-family: 'Righteous', cursive;
+    text-align: right;
+}
+
+.rodape {
+    position: fixed;
+    bottom: 0;
+}
+
+.cartao {
+    font-family: 'Ubuntu', sans-serif;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    border-radius: 8px;
+}
+
+header,
+footer {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+}
